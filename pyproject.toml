@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "module7"
+version = "0.1.0"
+description = ""
+authors = ["Terinor <kirstruk01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.9"
+faker = "^22.2.0"
+sqlalchemy = "^2.0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
